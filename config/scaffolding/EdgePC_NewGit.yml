@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgePC_NewGit
+  gitServerName: PC_github
+  gitUrl: https://github.com/pchew999/EdgePC_NewGit
+  gitUsername: pchew999
+  gitToken: edge.scaffolding.EdgePC_NewGit.PC_github.gitToken
+  gitBranch: main
