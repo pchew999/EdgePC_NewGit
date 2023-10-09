@@ -45,20 +45,33 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">pengchew.tan</value>
-    <value name="createdDate">1696840567517</value>
-    <value name="lastModifiedDate">1696840567517</value>
+    <value name="lastModifiedBy">pengchew.tan</value>
+    <value name="lastModifiedDate">1696840955938</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">0f582dc99fd1458a8049e595de0ad834</value>
-      <null name="group"/>
+      <value name="group">default</value>
       <value name="name">PC_EdgeRuntime1</value>
     </record>
     <value name="displayName">getBiodataByID2</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
